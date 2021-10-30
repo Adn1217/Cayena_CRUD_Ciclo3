@@ -10,9 +10,8 @@ router.get('/clave/:nombre', async(req, res) => {
 
     // const id = req.body.nombre
     // const usuario = req.body
-    //const usuario = req.params.nombre
     const usuario = req.params.nombre
-    // console.log(usuario)
+    console.log(usuario)
     try { 
         const claveDB = await estudiante.findOne({nombre: usuario})
         //const claveDB = await estudiante.findById({"_id": id})

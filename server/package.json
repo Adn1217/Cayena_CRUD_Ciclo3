@@ -4,7 +4,7 @@
   "description": "",
   "main": ".eslintrc.js",
   "scripts": {
-    "dev": "nodemon app.js",
+    "dev": "nodemon src\\app.js",
     "devbabel": "nodemon src\\app.js --exec babel-node",
     "start": ".\\node_modules\\nodemon\\bin\\nodemon.js src\\app.js --exec 'node run lint && node'",
     "lint": ".\\node_modules\\.bin\\eslint **\\*.js"
