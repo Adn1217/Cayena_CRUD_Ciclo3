@@ -87,7 +87,7 @@ export default {
       } else {
         document.getElementById('register').disabled = true
       }
-      // console.log('email has changed', value)
+      console.log('email has changed', value)
     }
   }
 }
