@@ -8,7 +8,7 @@ export default() => {
   }
   if (process.env.NODE_ENV === 'production') {
     return axios.create({
-      baseURL: 'https://cayena-v1.herokuapp.com/'
+      baseURL: 'https://cayena-v1.herokuapp.com/' //replace by localhost if you want to build for local tests.
     })
   }
   // baseURL: process.env.VUE_APP_BASE_URL
