@@ -60,6 +60,7 @@ app.use('/delete', require('../routes/delete'))
 
 const history = require('connect-history-api-fallback')
 app.use(history())
-app.use(express.static(path.join(__dirname, 'public')));
-
-app.listen(process.env.PORT || 8081)
+app.use(express.static(path.join(__dirname, '../public')));
+var listener = app.listen(process.env.PORT || 8081, function() {
+    console.log('Escuchando en el puerto ' + listener.address().port)
+})
