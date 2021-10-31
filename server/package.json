@@ -6,26 +6,33 @@
   "scripts": {
     "dev": "nodemon src\\app.js",
     "devbabel": "nodemon src\\app.js --exec babel-node",
-    "start": "babel-node src\\app.js --exec ",
+    "start": "babel-node src\\app.js --exec",
     "lint": ".\\node_modules\\.bin\\eslint **\\*.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-node": "0.0.1-security",
     "body-parser": "^1.19.0",
     "connect-history-api-fallback": "^1.6.0",
     "cors": "^2.8.5",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.18.0",
     "express": "^4.17.1",
     "mongoose": "^6.0.8",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.13"
+    "nodemon": "^2.0.13",
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.15.7",
-    "@babel/core": "^7.15.5",
-    "@babel/node": "^7.15.4",
-    "@babel/preset-env": "^7.15.6",
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^7.18.0"
   }
