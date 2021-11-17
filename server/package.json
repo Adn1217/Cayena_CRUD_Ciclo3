@@ -6,11 +6,7 @@
   "scripts": {
     "dev": "nodemon src\\app.js",
     "devbabel": "nodemon src\\app.js --exec babel-node",
-<<<<<<< HEAD
     "start": "babel-node src//app.js --exec",
-=======
-    "start": "babel-node src\\app.js --exec",
->>>>>>> cc9410852fc48c15d4bf7476bca3d0a4ccdb4280
     "lint": ".\\node_modules\\.bin\\eslint **\\*.js"
   },
   "keywords": [],
